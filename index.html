@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Spot - магазин печенья</title>
+<style>
+body { font-family: Arial, sans-serif; background:#fff3f0; color:#5c4033; margin:0; }
+header { background: linear-gradient(120deg, #ffc0cb, #ffdead); padding:60px 20px; text-align:center; }
+nav { background:#fff; display:flex; justify-content:center; gap:20px; padding:15px; }
+nav a { text-decoration:none; color:#5c4033; font-weight:600; }
+section { padding:50px 20px; max-width:1100px; margin:auto; }
+.card-container { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+.card { background:#fff; border-radius:15px; padding:20px; text-align:center; box-shadow:0 5px 15px rgba(0,0,0,0.05); }
+.card img { width:100%; border-radius:10px; }
+footer { background:#5c4033; color:white; text-align:center; padding:20px; }
+.contact { background:#fff0f5; padding:20px; border-radius:15px; margin-top:30px; }
+.contact a { color:#5c4033; text-decoration:none; font-weight:600; }
+</style>
+</head>
+<body>
+
+<!-- Титульный слайд -->
+<header>
+<h1>Sweet Spot</h1>
+<p>Your Daily Dose of Crunch 🍪</p>
+</header>
+
+<!-- Навигация -->
+<nav>
+<a href="#products">Продукты</a>
+<a href="#ingredients">Состав</a>
+<a href="#contacts">Контакты</a>
+</nav>
+
+<!-- Объяснение состава -->
+<section id="ingredients">
+<h2>Натуральность и безопасность</h2>
+<p>Мы используем только натуральные ингредиенты: мука, сливочное масло, орехи, мед и шоколад и всякие вкусности на ваш вкус <br>
+Без искусственных красителей и консервантов. <br>
+Печенье безопасно для всей семьи и не тестируется на животных.</p>
+</section>
+
+<!-- Раздел с продуктами -->
+<section id="products">
+<h2>Наши продукты</h2>
+<div class="card-container">
+<div class="card">
+<img src="chocolate_chip.jpg" alt="Печенье с шоколадной крошкой">
+<h3>Печенье с шоколадной крошкой</h3>
+<p>Хрустящее и сладкое, идеально к чаю</p>
+</div>
+<div class="card">
+<img src="oatmeal_cookie.jpg" alt="Овсяное печенье">
+<h3>Овсяное печенье</h3>
+<p>Сытное, с орехами и медом</p>
+</div>
+<div class="card">
+<img src="peanut_cookie.jpg" alt="Арахисовое печенье">
+<h3>Арахисовое печенье</h3>
+<p>С насыщенным вкусом и хрустом</p>
+</div>
+</div>
+</section>
+
+<!-- Контакты и консультанты -->
+<section id="contacts">
+<h2>Контакты и консультанты</h2>
+<div class="contact">
+<p>📞 Директор Ширин А.: +996 676-767</p>
+<p>📞 Бабиджон П.: +6 667-776</p>
+<p>✉ Email: info@sweetspot.com</p>
+<p>🌐 Instagram: <a href="https://instagram.com/sweetspot" target="_blank">@sweetspot</a></p>
+<p>🌐 VK: <a href="https://vk.com/sweetspot" target="_blank">vk.com/sweetspot</a></p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Sweet Spot. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
